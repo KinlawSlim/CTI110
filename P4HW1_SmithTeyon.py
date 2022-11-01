@@ -19,3 +19,16 @@ for grade in range(6):
 print(grades)
 #max(grades) and min (grades)
 # to show lowest and highest in the list
+
+print('The grades are: ', grades)
+# max(grades) and min (grades)
+# to show lowest and highest  in the list
+print('Highest grade: ', max(grades))
+print('Lowest grade: ', min(grades))
+
+#now the average - divide the sum ny the length (count)
+total = sum(grades)
+count = len(grades)
+average = total / count
+print('Total is: ', total)
+print('Average is: ', average)
