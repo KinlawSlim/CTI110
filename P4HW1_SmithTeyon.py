@@ -3,7 +3,19 @@
 # Smith Teyon
 # 11/1
 
-# ask uset for 6 grades for the 6 modules
+# ask user for 6 grades for the 6 modules
 # add them to a list
 
 grades = [100, 95, 88, 90, 93, 85]
+grades = []
+#grade1 = int(input('enter grade for module 1:'))
+#grades [0] = grade1
+
+for grade in range(6):
+    grade = int(input('enter grade: '))
+    grades.append(grade)
+                  
+
+print(grades)
+#max(grades) and min (grades)
+# to show lowest and highest in the list
